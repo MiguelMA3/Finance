@@ -1,16 +1,39 @@
-class Usuario:
-    cpf
-    nome
-    idade
-    genero
-    profissao
-    endereco(cidade, bairro, estado, pais)
-    rendaTotal
+- Cadastro:
+    Análise das despesas atuais: Para começar, saber quanto o usuário está gastando 
+    atualmente em cada uma das necessidades básicas. Registrar todas as despesas, categorizando-as
+    por tipo(alimentação, transporte, moradia, etc).
 
-class Renda:
-    nome
-    definicao
-    origem
+        class despesa:
+            titulo
+            valor
+            tipo
+            frequencia
 
-class mercado:
-    estoque
+    Estabeleça uma meta de economia: Uma vez que você tenha uma ideia do quanto está gastando 
+    atualmente, estabeleça uma meta de economia para cada uma dessas necessidades básicas. 
+    Tente encontrar maneiras de reduzir seus gastos, sem afetar sua qualidade de vida. 
+    Por exemplo, você pode optar por fazer compras em supermercados mais em conta, 
+    utilizar transporte público em vez de carro particular, ou dividir o aluguel com 
+    outras pessoas.
+
+        Analisar valores de mercado de acordo com a localização fornecida pelo usuário.
+        Pedir uma meta ao usuário e sugerir mudanças nos gastos.
+
+    class Usuario:
+        cpf
+        nome
+        idade
+        genero
+        profissao
+        endereco(cidade, bairro, estado, pais)
+
+    class Renda:
+        nome
+        definicao
+        origem
+
+    class empresa:
+        tipo
+        produtos...
+
+
