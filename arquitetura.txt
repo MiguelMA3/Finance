@@ -1,0 +1,16 @@
+class Usuario:
+    cpf
+    nome
+    idade
+    genero
+    profissao
+    endereco(cidade, bairro, estado, pais)
+    rendaTotal
+
+class Renda:
+    nome
+    definicao
+    origem
+
+class mercado:
+    estoque
